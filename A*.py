@@ -63,7 +63,7 @@ for obs in range(100):
     ob_y = random.randint(0, 29)
     ob = screenmap[ob_x][ob_y]
     ob.avai = False
-    pygame.draw.rect(screen, red, (ob.centerx, ob.centery, 14, 14))
+    pygame.draw.rect(screen, red, (ob.centerx-10, ob.centery-10, 14, 14))
     pygame.display.flip()
 
 
