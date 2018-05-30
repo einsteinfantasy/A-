@@ -58,7 +58,7 @@ close_list = []
 b = True
 
 
-for obs in range(100):
+for obs in range(500):
     ob_x = random.randint(0, 39)
     ob_y = random.randint(0, 29)
     ob = screenmap[ob_x][ob_y]
